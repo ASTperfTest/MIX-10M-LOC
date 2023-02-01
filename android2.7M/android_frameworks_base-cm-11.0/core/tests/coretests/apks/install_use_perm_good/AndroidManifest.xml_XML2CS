@@ -1,0 +1,25 @@
+﻿    public class CxXmlConfigClass641240167 { public CxXmlConfigClass() {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+if (MANIFEST) {    MANIFEST.XMLNS_ANDROID = "http://schemas.android.com/apk/res/android";
+     MANIFEST.PACKAGE = "com.android.frameworks.coretests.install_use_perm_good";     MANIFEST;
+
+if (USES-PERMISSION) {    MANIFEST.USES_PERMISSION.ANDROID_NAME = "com.android.frameworks.coretests.NORMAL";     MANIFEST.USES_PERMISSION;}
+if (USES-PERMISSION) {    MANIFEST.USES_PERMISSION.ANDROID_NAME = "com.android.frameworks.coretests.DANGEROUS";     MANIFEST.USES_PERMISSION;}
+if (USES-PERMISSION) {    MANIFEST.USES_PERMISSION.ANDROID_NAME = "com.android.frameworks.coretests.SIGNATURE";     MANIFEST.USES_PERMISSION;}
+
+if (APPLICATION) {    MANIFEST.APPLICATION.ANDROID_HASCODE = "false";     MANIFEST.APPLICATION;}
+}
+    } }

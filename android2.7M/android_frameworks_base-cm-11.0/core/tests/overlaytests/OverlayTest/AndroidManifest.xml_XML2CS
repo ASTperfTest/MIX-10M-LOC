@@ -1,0 +1,10 @@
+﻿    public class CxXmlConfigClass780226765 { public CxXmlConfigClass() {if (MANIFEST) {    MANIFEST.XMLNS_ANDROID = "http://schemas.android.com/apk/res/android";
+     MANIFEST.PACKAGE = "com.android.overlaytest";     MANIFEST;
+if (USES-PERMISSION) {    MANIFEST.USES_PERMISSION.ANDROID_NAME = "android.permission.RUN_INSTRUMENTATION";     MANIFEST.USES_PERMISSION;}
+if (APPLICATION) {
+if (USES-LIBRARY) {    MANIFEST.APPLICATION.USES_LIBRARY.ANDROID_NAME = "android.test.runner";     MANIFEST.APPLICATION.USES_LIBRARY;}}
+
+if (INSTRUMENTATION) {    MANIFEST.INSTRUMENTATION.ANDROID_NAME = "android.test.InstrumentationTestRunner";
+     MANIFEST.INSTRUMENTATION.ANDROID_TARGETPACKAGE = "com.android.overlaytest";
+     MANIFEST.INSTRUMENTATION.ANDROID_LABEL = "Runtime resource overlay tests";     MANIFEST.INSTRUMENTATION;}}
+    } }

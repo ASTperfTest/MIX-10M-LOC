@@ -1,0 +1,28 @@
+﻿    public class CxXmlConfigClass118835163 { public CxXmlConfigClass() {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+if (MANIFEST) {    MANIFEST.XMLNS_ANDROID = "http://schemas.android.com/apk/res/android";
+     MANIFEST.PACKAGE = "com.android.frameworks.coretests.disabled_app";
+     MANIFEST.ANDROID_SHAREDUSERID = "com.android.uid.test";     MANIFEST;
+
+if (APPLICATION) {    MANIFEST.APPLICATION.ENABLED = "false";     MANIFEST.APPLICATION;
+
+
+if (ACTIVITY) {    MANIFEST.APPLICATION.ACTIVITY.ANDROID_NAME = ".DisabledActivity";     MANIFEST.APPLICATION.ACTIVITY.ANDROID_ENABLED = "false";     MANIFEST.APPLICATION.ACTIVITY;}
+
+if (ACTIVITY) {    MANIFEST.APPLICATION.ACTIVITY.ANDROID_NAME = ".EnabledActivity";     MANIFEST.APPLICATION.ACTIVITY;}
+}
+}
+    } }

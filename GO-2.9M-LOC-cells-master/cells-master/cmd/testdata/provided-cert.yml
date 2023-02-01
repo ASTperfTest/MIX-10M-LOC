@@ -1,0 +1,10 @@
+proxyconfig:
+  bindurl: https://localhost:443
+  externalurl: https://localhost
+  redirecturls:
+  - http://localhost
+  tlsconfig:
+    certificate:
+      certfile: /var/cells/certs/cert.pem
+      keyfile: /var/cells/certs/key.pem
+

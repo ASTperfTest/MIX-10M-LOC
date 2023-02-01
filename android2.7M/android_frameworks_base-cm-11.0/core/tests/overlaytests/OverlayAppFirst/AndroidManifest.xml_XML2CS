@@ -1,0 +1,6 @@
+﻿    public class CxXmlConfigClass1982315158 { public CxXmlConfigClass() {if (MANIFEST) {    MANIFEST.XMLNS_ANDROID = "http://schemas.android.com/apk/res/android";
+     MANIFEST.PACKAGE = "com.android.overlaytest.first_app_overlay";
+     MANIFEST.ANDROID_VERSIONCODE = "1";
+     MANIFEST.ANDROID_VERSIONNAME = "1.0";     MANIFEST;
+if (OVERLAY) {    MANIFEST.OVERLAY.ANDROID_TARGETPACKAGE = "com.android.overlaytest";     MANIFEST.OVERLAY.ANDROID_PRIORITY = "1";     MANIFEST.OVERLAY;}}
+    } }

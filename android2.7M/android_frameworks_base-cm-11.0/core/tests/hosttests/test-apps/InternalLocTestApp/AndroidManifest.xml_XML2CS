@@ -1,0 +1,22 @@
+﻿    public class CxXmlConfigClass538187756 { public CxXmlConfigClass() {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+if (MANIFEST) {    MANIFEST.XMLNS_ANDROID = "http://schemas.android.com/apk/res/android";
+     MANIFEST.PACKAGE = "com.android.framework.internalloctestapp";
+     MANIFEST.ANDROID_INSTALLLOCATION = "internalOnly";     MANIFEST;
+
+if (APPLICATION) {    MANIFEST.APPLICATION.ANDROID_LABEL = "InternalLocTestApp";     MANIFEST.APPLICATION;}}
+
+    } }

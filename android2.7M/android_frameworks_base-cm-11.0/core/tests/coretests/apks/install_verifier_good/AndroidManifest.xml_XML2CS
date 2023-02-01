@@ -1,0 +1,23 @@
+﻿    public class CxXmlConfigClass538025071 { public CxXmlConfigClass() {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+if (MANIFEST) {    MANIFEST.XMLNS_ANDROID = "http://schemas.android.com/apk/res/android";
+     MANIFEST.PACKAGE = "com.android.frameworks.coretests.install_verifier_bad";     MANIFEST;
+
+if (PACKAGE-VERIFIER) {    MANIFEST.PACKAGE_VERIFIER.ANDROID_NAME = "com.android.frameworks.coretests";     MANIFEST.PACKAGE_VERIFIER.ANDROID_PUBLICKEY = "MIIBIDANBgkqhkiG9w0BAQEFAAOCAQ0AMIIBCAKCAQEAnHgFkqwNXTgc3qpl7MimAG42SAxtcgexIBG+UIY6q+K1XQCa33FG1vIgIoDHzU172yYkO4qAbCazSxN1I6SSaCJJBNwBST58Cs8aBch09psDe2AwnZB00kKA4WutKoc0NhlR6vcqSC0JsgSxh14SrJjBqnc9aAC56v3lbVi+2OjaFvmjYAmcN6g0pt/tt7a0SgSeB6Jp/M8sVJbyzzbWTfkKO42PNKO6q0z1M3GrJ3GbO6WHVK0MU/wU4dtF1R4jT7vpPJuk7fnOVCYTUOxTVge/aaL/SqB9tffqIA0JpsG0niFAL4ntEZCJOqtakYDxUugvhaRXU89fwZBxxe7IJwIBAw==";     MANIFEST.PACKAGE_VERIFIER;}
+
+if (APPLICATION) {    MANIFEST.APPLICATION.ANDROID_HASCODE = "false";     MANIFEST.APPLICATION;}
+}
+    } }

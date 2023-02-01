@@ -1,0 +1,24 @@
+﻿    public class CxXmlConfigClass290739148 { public CxXmlConfigClass() {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+if (MANIFEST) {    MANIFEST.XMLNS_ANDROID = "http://schemas.android.com/apk/res/android";
+     MANIFEST.PACKAGE = "com.android.framework.externallocversionedtestapp";
+     MANIFEST.ANDROID_INSTALLLOCATION = "preferExternal";
+     MANIFEST.ANDROID_VERSIONCODE = "2";
+     MANIFEST.ANDROID_VERSIONNAME = "2.0";     MANIFEST;
+
+if (APPLICATION) {    MANIFEST.APPLICATION.ANDROID_LABEL = "ExternalLocVersionedTestApp_v2";     MANIFEST.APPLICATION;}}
+
+    } }

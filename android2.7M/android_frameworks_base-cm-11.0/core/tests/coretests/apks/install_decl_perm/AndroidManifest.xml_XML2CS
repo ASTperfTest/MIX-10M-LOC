@@ -1,0 +1,36 @@
+﻿    public class CxXmlConfigClass2131709368 { public CxXmlConfigClass() {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+if (MANIFEST) {    MANIFEST.XMLNS_ANDROID = "http://schemas.android.com/apk/res/android";
+     MANIFEST.PACKAGE = "com.android.frameworks.coretests.install_decl_perm";     MANIFEST;
+
+if (PERMISSION) {    MANIFEST.PERMISSION.ANDROID_NAME = "com.android.frameworks.coretests.NORMAL";
+     MANIFEST.PERMISSION.ANDROID_PERMISSIONGROUP = "android.permission-group.COST_MONEY";
+     MANIFEST.PERMISSION.ANDROID_PROTECTIONLEVEL = "normal";
+     MANIFEST.PERMISSION.ANDROID_LABEL = "test normal perm";     MANIFEST.PERMISSION;}
+
+if (PERMISSION) {    MANIFEST.PERMISSION.ANDROID_NAME = "com.android.frameworks.coretests.DANGEROUS";
+     MANIFEST.PERMISSION.ANDROID_PERMISSIONGROUP = "android.permission-group.COST_MONEY";
+     MANIFEST.PERMISSION.ANDROID_PROTECTIONLEVEL = "dangerous";
+     MANIFEST.PERMISSION.ANDROID_LABEL = "test dangerous perm";     MANIFEST.PERMISSION;}
+
+if (PERMISSION) {    MANIFEST.PERMISSION.ANDROID_NAME = "com.android.frameworks.coretests.SIGNATURE";
+     MANIFEST.PERMISSION.ANDROID_PERMISSIONGROUP = "android.permission-group.COST_MONEY";
+     MANIFEST.PERMISSION.ANDROID_PROTECTIONLEVEL = "signature";
+     MANIFEST.PERMISSION.ANDROID_LABEL = "test signature perm";     MANIFEST.PERMISSION;}
+
+if (APPLICATION) {    MANIFEST.APPLICATION.ANDROID_HASCODE = "false";     MANIFEST.APPLICATION;}
+}
+    } }

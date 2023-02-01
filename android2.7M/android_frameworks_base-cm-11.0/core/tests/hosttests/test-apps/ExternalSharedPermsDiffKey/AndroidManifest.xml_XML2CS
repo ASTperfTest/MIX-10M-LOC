@@ -1,0 +1,30 @@
+﻿    public class CxXmlConfigClass739509807 { public CxXmlConfigClass() {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+if (MANIFEST) {    MANIFEST.XMLNS_ANDROID = "http://schemas.android.com/apk/res/android";
+     MANIFEST.PACKAGE = "com.android.framework.externalsharedpermsdiffkeytestapp";
+     MANIFEST.ANDROID_INSTALLLOCATION = "preferExternal";
+     MANIFEST.ANDROID_VERSIONCODE = "1";
+     MANIFEST.ANDROID_VERSIONNAME = "1.0";
+     MANIFEST.ANDROID_SHAREDUSERID = "com.android.framework.externalsharedpermstestapp";     MANIFEST;
+
+if (APPLICATION) {
+if (USES-LIBRARY) {    MANIFEST.APPLICATION.USES_LIBRARY.ANDROID_NAME = "android.test.runner";     MANIFEST.APPLICATION.USES_LIBRARY;}}
+
+
+if (INSTRUMENTATION) {    MANIFEST.INSTRUMENTATION.ANDROID_NAME = "android.test.InstrumentationTestRunner";
+     MANIFEST.INSTRUMENTATION.ANDROID_TARGETPACKAGE = "com.android.framework.externalsharedpermsdiffkeytestapp";
+     MANIFEST.INSTRUMENTATION.ANDROID_LABEL = "Test for instrumentation with an app with shared permissions but signed by different key";     MANIFEST.INSTRUMENTATION;}}
+    } }

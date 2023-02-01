@@ -1,0 +1,23 @@
+﻿    public class CxXmlConfigClass1348061257 { public CxXmlConfigClass() {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+if (MANIFEST) {    MANIFEST.XMLNS_ANDROID = "http://schemas.android.com/apk/res/android";
+     MANIFEST.PACKAGE = "com.android.framework.nolocversionedtestapp";
+     MANIFEST.ANDROID_VERSIONCODE = "1";
+     MANIFEST.ANDROID_VERSIONNAME = "1.0";     MANIFEST;
+
+if (APPLICATION) {    MANIFEST.APPLICATION.ANDROID_LABEL = "NoLocVersionedTestApp_v1";     MANIFEST.APPLICATION;}}
+
+    } }

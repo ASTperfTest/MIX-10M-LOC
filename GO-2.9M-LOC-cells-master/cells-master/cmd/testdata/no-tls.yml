@@ -1,0 +1,4 @@
+# Basic no-TLS config for the embedded gateway
+proxyconfig:
+  bindurl: http://localhost:80
+  externalurl: http://localhost

@@ -1,0 +1,38 @@
+﻿    public class CxXmlConfigClass659434418 { public CxXmlConfigClass() {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+if (MANIFEST) {    MANIFEST.XMLNS_ANDROID = "http://schemas.android.com/apk/res/android";
+     MANIFEST.PACKAGE = "com.android.smspush";     MANIFEST;
+
+if (PERMISSION) {    MANIFEST.PERMISSION.ANDROID_NAME = "com.android.smspush.WAPPUSH_MANAGER_BIND";
+     MANIFEST.PERMISSION.ANDROID_PROTECTIONLEVEL = "signatureOrSystem";     MANIFEST.PERMISSION;}
+
+if (ORIGINAL-PACKAGE) {    MANIFEST.ORIGINAL_PACKAGE.ANDROID_NAME = "com.android.smspush";     MANIFEST.ORIGINAL_PACKAGE;}
+if (APPLICATION) {
+if (SERVICE) {    MANIFEST.APPLICATION.SERVICE.ANDROID_NAME = ".WapPushManager";
+     MANIFEST.APPLICATION.SERVICE.ANDROID_PERMISSION = "com.android.smspush.WAPPUSH_MANAGER_BIND";
+     MANIFEST.APPLICATION.SERVICE.ANDROID_EXPORTED = "true";     MANIFEST.APPLICATION.SERVICE;
+if (INTENT-FILTER) {
+if (ACTION) {    MANIFEST.APPLICATION.SERVICE.INTENT_FILTER.ACTION.ANDROID_NAME = "com.android.internal.telephony.IWapPushManager";     MANIFEST.APPLICATION.SERVICE.INTENT_FILTER.ACTION;}}
+}
+}
+}
+
+
+    } }

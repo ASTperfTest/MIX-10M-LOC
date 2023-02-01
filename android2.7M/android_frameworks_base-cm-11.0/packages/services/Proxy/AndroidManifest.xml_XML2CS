@@ -1,0 +1,17 @@
+﻿    public class CxXmlConfigClass1820364885 { public CxXmlConfigClass() {if (MANIFEST) {    MANIFEST.XMLNS_ANDROID = "http://schemas.android.com/apk/res/android";
+     MANIFEST.XMLNS_ANDROIDPRV = "http://schemas.android.com/apk/prv/res/android";
+     MANIFEST.PACKAGE = "com.android.proxyhandler";
+     MANIFEST.COREAPP = "true";     MANIFEST;
+
+if (USES-PERMISSION) {    MANIFEST.USES_PERMISSION.ANDROID_NAME = "android.permission.INTERNET";     MANIFEST.USES_PERMISSION;}
+
+if (APPLICATION) {
+    MANIFEST.APPLICATION.ANDROID_LABEL = "@string/app_label";
+     MANIFEST.APPLICATION.ANDROID_PROCESS = "com.android.proxyhandler";     MANIFEST.APPLICATION;
+
+if (SERVICE) {    MANIFEST.APPLICATION.SERVICE.ANDROID_NAME = ".ProxyService";
+     MANIFEST.APPLICATION.SERVICE.ANDROID_EXPORTED = "true";     MANIFEST.APPLICATION.SERVICE;}
+}
+
+}
+    } }

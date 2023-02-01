@@ -1,0 +1,75 @@
+﻿
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    function setup() {
+        var width = document.body.clientWidth;
+        var height = document.body.clientHeight;
+        var mainElement = document.getElementById("main");
+        var playElement = document.getElementById("play");
+        var loadcount = 0;
+        var POSTER = "http://img.youtube.com/vi/VIDEO_ID/0.jpg";
+
+        function doload() {
+            if (++loadcount == 2) {
+                // Resize the element to the right size
+                mainElement.width = width;
+                mainElement.height = height;
+                mainElement.style.backgroundImage = "url('" + POSTER + "')";
+                // Center the play button
+                playElement.style.marginTop = "-" + play.height/2 + "px";
+                playElement.style.marginLeft = "-" + play.width/2 + "px";
+                playElement.addEventListener("click", function(e) {
+                    top.location.href = "vnd.youtube:VIDEO_ID";
+                }, false);
+            }
+        }
+        var background = new Image();
+        background.onload = doload;
+        background.src = POSTER;
+        play = new Image();
+        play.onload = doload;
+        play.src = "play.png";
+    }
+
+    window.onload = setup;
+  
+
+
+
+
+
+
+
+
+
+ 

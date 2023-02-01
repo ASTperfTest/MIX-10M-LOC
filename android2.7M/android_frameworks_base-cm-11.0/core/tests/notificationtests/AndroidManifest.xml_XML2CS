@@ -1,0 +1,29 @@
+﻿    public class CxXmlConfigClass331651126 { public CxXmlConfigClass() {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+if (MANIFEST) {    MANIFEST.XMLNS_ANDROID = "http://schemas.android.com/apk/res/android";
+     MANIFEST.PACKAGE = "com.android.notification.tests";     MANIFEST;
+
+if (APPLICATION) {
+if (USES-LIBRARY) {    MANIFEST.APPLICATION.USES_LIBRARY.ANDROID_NAME = "android.test.runner";     MANIFEST.APPLICATION.USES_LIBRARY;}}
+
+
+if (INSTRUMENTATION) {
+    MANIFEST.INSTRUMENTATION.ANDROID_NAME = "android.test.InstrumentationTestRunner";
+     MANIFEST.INSTRUMENTATION.ANDROID_TARGETPACKAGE = "com.android.notification.tests";
+     MANIFEST.INSTRUMENTATION.ANDROID_LABEL = "Notification Stress Tests";     MANIFEST.INSTRUMENTATION;}}
+
+    } }

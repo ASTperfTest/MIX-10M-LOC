@@ -1,0 +1,86 @@
+{
+  "AccessedBy": {
+    "other": "Acceso efectuado por {{.Actor}}"
+  },
+  "AccessedObject": {
+    "other": "Objeto accedido: {{.Object}}"
+  },
+  "AccessedObjectBy": {
+    "other": "{{.Actor}} ha accedido al objeto {{.Object}}"
+  },
+  "Cell": {
+    "other": "Cell"
+  },
+  "CreatedBy": {
+    "other": "Creado por {{.Actor}}"
+  },
+  "CreatedObject": {
+    "other": "Objeto creado: {{.Object}}"
+  },
+  "CreatedObjectBy": {
+    "other": "{{.Object}} ha sido creado por {{.Actor}}"
+  },
+  "DeletedBy": {
+    "other": "Eliminado por {{.Actor}}"
+  },
+  "DeletedObject": {
+    "other": "Objeto eliminado {{.Object}}"
+  },
+  "DeletedObjectBy": {
+    "other": "{{.Object}} ha sido eliminado por {{.Actor}}"
+  },
+  "SharedWs": {
+    "other": "Compartido en {{.Object}}"
+  },
+  "SharedWsWithYou": {
+    "other": "{{.Actor}} ha compartido {{.Object}} contigo"
+  },
+  "DigestTitle": {
+    "other": "Este es tu Boletín Diario de Pydio"
+  },
+  "Document": {
+    "other": "Documento"
+  },
+  "Folder": {
+    "other": "Carpeta"
+  },
+  "ModifiedBy": {
+    "other": "Modificado por {{.Actor}}"
+  },
+  "ModifiedObject": {
+    "other": "Objeto Modificado: {{.Object}}"
+  },
+  "ModifiedObjectBy": {
+    "other": "{{.Object}} ha sido modificado por {{.Actor}}"
+  },
+  "MetaModifiedBy": {
+    "other": "Metadata modified by {{.Actor}}"
+  },
+  "MetaModifiedObject": {
+    "other": "Modified metadata on {{.Object}}"
+  },
+  "MetaModifiedObjectBy": {
+    "other": "{{.Actor}} modified metadata on {{.Object}}"
+  },
+  "CommentedBy": {
+    "other": "Commented by {{.Actor}}"
+  },
+  "CommentedObject": {
+    "other": "Commented {{.Object}}"
+  },
+  "CommentedObjectBy": {
+    "other": "{{.Actor}} published new comment on {{.Object}}"
+  },
+  "MovedBy": {
+    "other": "Cambiado de lugar por {{.Actor}}"
+  },
+  "MovedObject": {
+    "other": "Objeto cambiado de lugar: {{.Object}}"
+  },
+  "MovedObjectBy": {
+    "other": "{{.Object}} ha sido cambiado de lugar por {{.Actor}}"
+  },
+  "Workspace": {
+    "other": "Espacio de Trabajo"
+  }
+}

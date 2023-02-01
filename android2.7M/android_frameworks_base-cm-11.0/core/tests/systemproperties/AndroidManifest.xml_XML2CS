@@ -1,0 +1,30 @@
+﻿    public class CxXmlConfigClass1869871572 { public CxXmlConfigClass() {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+if (MANIFEST) {    MANIFEST.XMLNS_ANDROID = "http://schemas.android.com/apk/res/android";
+     MANIFEST.ANDROID_INSTALLLOCATION = "internalOnly";
+     MANIFEST.PACKAGE = "com.android.frameworks.coretests.systemproperties";
+     MANIFEST.ANDROID_SHAREDUSERID = "android.uid.system";     MANIFEST;
+
+if (APPLICATION) {
+if (USES-LIBRARY) {    MANIFEST.APPLICATION.USES_LIBRARY.ANDROID_NAME = "android.test.runner";     MANIFEST.APPLICATION.USES_LIBRARY;}}
+
+
+if (INSTRUMENTATION) {    MANIFEST.INSTRUMENTATION.ANDROID_NAME = "android.test.InstrumentationTestRunner";
+     MANIFEST.INSTRUMENTATION.ANDROID_TARGETPACKAGE = "com.android.frameworks.coretests.systemproperties";
+     MANIFEST.INSTRUMENTATION.ANDROID_LABEL = "Frameworks SystemProperties Core Tests";     MANIFEST.INSTRUMENTATION;}}
+
+    } }

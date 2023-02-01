@@ -1,0 +1,53 @@
+files:
+  - source: '*/lang/box/en-us.all.json'
+    translation: /%original_path%/%locale%.all.json
+    languages_mapping:
+      locale:
+        de: de
+        es-ES: es-es
+        fr: fr
+        it: it
+        ja: ja
+        lv: lv
+        pt-BR: pt-br
+        ru: ru
+        vi: vi-vn
+  - source: '*/i18n/en-us.all.json'
+    translation: /%original_path%/%locale%.all.json
+    languages_mapping:
+      locale:
+        de: de
+        es-ES: es-es
+        fr: fr
+        it: it
+        ja: ja
+        lv: lv
+        pt-BR: pt-br
+        ru: ru
+        vi: vi-vn
+  - source: '*/i18n/*/en-us.all.json'
+    translation: /%original_path%/%locale%.all.json
+    languages_mapping:
+      locale:
+        de: de
+        es-ES: es-es
+        fr: fr
+        it: it
+        ja: ja
+        lv: lv
+        pt-BR: pt-br
+        ru: ru
+        vi: vi-vn
+  - source: '*/i18n/*/conf/en-us.all.json'
+    translation: /%original_path%/%locale%.all.json
+    languages_mapping:
+      locale:
+        de: de
+        es-ES: es-es
+        fr: fr
+        it: it
+        ja: ja
+        lv: lv
+        pt-BR: pt-br
+        ru: ru
+        vi: vi-vn

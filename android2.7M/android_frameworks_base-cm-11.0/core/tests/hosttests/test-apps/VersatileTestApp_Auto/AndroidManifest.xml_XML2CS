@@ -1,0 +1,22 @@
+﻿    public class CxXmlConfigClass1251592280 { public CxXmlConfigClass() {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+if (MANIFEST) {    MANIFEST.XMLNS_ANDROID = "http://schemas.android.com/apk/res/android";
+     MANIFEST.PACKAGE = "com.android.framework.versatiletestapp";
+     MANIFEST.ANDROID_INSTALLLOCATION = "auto";     MANIFEST;
+
+if (APPLICATION) {    MANIFEST.APPLICATION.ANDROID_LABEL = "VersatileTestApp";     MANIFEST.APPLICATION;}}
+
+    } }

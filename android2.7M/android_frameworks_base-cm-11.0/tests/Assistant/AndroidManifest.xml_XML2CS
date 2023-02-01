@@ -1,0 +1,39 @@
+﻿    public class CxXmlConfigClass983316005 { public CxXmlConfigClass() {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+if (MANIFEST) {    MANIFEST.XMLNS_ANDROID = "http://schemas.android.com/apk/res/android";
+     MANIFEST.PACKAGE = "com.google.android.test.assistant";     MANIFEST;
+
+if (APPLICATION) {    MANIFEST.APPLICATION.ANDROID_LABEL = "@string/activity_title";     MANIFEST.APPLICATION;
+
+if (ACTIVITY) {    MANIFEST.APPLICATION.ACTIVITY.ANDROID_NAME = ".AssistActivity";
+     MANIFEST.APPLICATION.ACTIVITY.ANDROID_THEME = "@android:style/Theme.NoTitleBar";     MANIFEST.APPLICATION.ACTIVITY;
+
+
+if (INTENT-FILTER) {
+if (ACTION) {    MANIFEST.APPLICATION.ACTIVITY.INTENT_FILTER.ACTION.ANDROID_NAME = "android.intent.action.ASSIST";     MANIFEST.APPLICATION.ACTIVITY.INTENT_FILTER.ACTION;}
+if (CATEGORY) {    MANIFEST.APPLICATION.ACTIVITY.INTENT_FILTER.CATEGORY.ANDROID_NAME = "android.intent.category.DEFAULT";     MANIFEST.APPLICATION.ACTIVITY.INTENT_FILTER.CATEGORY;}}
+
+
+
+if (META-DATA) {    MANIFEST.APPLICATION.ACTIVITY.META_DATA.ANDROID_NAME = "com.android.systemui.action_assist_icon";
+     MANIFEST.APPLICATION.ACTIVITY.META_DATA.ANDROID_RESOURCE = "@drawable/ic_action_assist";     MANIFEST.APPLICATION.ACTIVITY.META_DATA;}}
+
+}
+
+}
+
+    } }

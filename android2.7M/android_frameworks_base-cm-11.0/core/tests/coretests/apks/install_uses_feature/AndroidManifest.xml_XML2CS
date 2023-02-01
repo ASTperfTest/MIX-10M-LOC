@@ -1,0 +1,23 @@
+﻿    public class CxXmlConfigClass654942246 { public CxXmlConfigClass() {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+if (MANIFEST) {    MANIFEST.XMLNS_ANDROID = "http://schemas.android.com/apk/res/android";
+     MANIFEST.PACKAGE = "com.android.frameworks.coretests.install_uses_feature";     MANIFEST;
+
+if (USES-FEATURE) {    MANIFEST.USES_FEATURE.ANDROID_NAME = "com.android.frameworks.coretests.nonexistent";     MANIFEST.USES_FEATURE;}
+
+if (APPLICATION) {    MANIFEST.APPLICATION.ANDROID_HASCODE = "false";     MANIFEST.APPLICATION;}
+}
+    } }

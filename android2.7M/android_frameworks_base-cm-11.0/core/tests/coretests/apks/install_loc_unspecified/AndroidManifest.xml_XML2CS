@@ -1,0 +1,21 @@
+﻿    public class CxXmlConfigClass829755683 { public CxXmlConfigClass() {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+if (MANIFEST) {    MANIFEST.XMLNS_ANDROID = "http://schemas.android.com/apk/res/android";
+     MANIFEST.PACKAGE = "com.android.frameworks.coretests.install_loc";     MANIFEST;
+
+if (APPLICATION) {    MANIFEST.APPLICATION.ANDROID_HASCODE = "false";     MANIFEST.APPLICATION;}
+}
+    } }

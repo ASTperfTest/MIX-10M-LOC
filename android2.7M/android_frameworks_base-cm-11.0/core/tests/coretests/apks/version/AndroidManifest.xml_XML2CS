@@ -1,0 +1,28 @@
+﻿    public class CxXmlConfigClass105427087 { public CxXmlConfigClass() {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+if (MANIFEST) {    MANIFEST.XMLNS_ANDROID = "http://schemas.android.com/apk/res/android";
+     MANIFEST.PACKAGE = "com.android.frameworks.coretests.version_test";     MANIFEST;
+
+
+
+if (USES-PERMISSION) {    MANIFEST.USES_PERMISSION.ANDROID_NAME = "android.permission.ACCESS_CACHE_FILESYSTEM";     MANIFEST.USES_PERMISSION;
+
+
+}
+if (USES-PERMISSION) {    MANIFEST.USES_PERMISSION.ANDROID_NAME = "android.permission.VIBRATE";     MANIFEST.USES_PERMISSION;}
+
+if (APPLICATION) {    MANIFEST.APPLICATION.ANDROID_HASCODE = "false";     MANIFEST.APPLICATION;}}
+    } }

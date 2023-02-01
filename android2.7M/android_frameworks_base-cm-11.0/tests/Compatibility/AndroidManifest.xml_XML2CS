@@ -1,0 +1,29 @@
+﻿    public class CxXmlConfigClass332557347 { public CxXmlConfigClass() {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+if (MANIFEST) {    MANIFEST.XMLNS_ANDROID = "http://schemas.android.com/apk/res/android";
+     MANIFEST.PACKAGE = "com.android.compatibilitytest";     MANIFEST;
+if (APPLICATION) {
+if (USES-LIBRARY) {    MANIFEST.APPLICATION.USES_LIBRARY.ANDROID_NAME = "android.test.runner";     MANIFEST.APPLICATION.USES_LIBRARY;}}
+
+
+if (INSTRUMENTATION) {
+    MANIFEST.INSTRUMENTATION.ANDROID_NAME = ".AppCompatibilityRunner";
+     MANIFEST.INSTRUMENTATION.ANDROID_TARGETPACKAGE = "com.android.compatibilitytest";
+     MANIFEST.INSTRUMENTATION.ANDROID_LABEL = "App Compability Test Runner";     MANIFEST.INSTRUMENTATION;}
+
+if (USES-SDK) {    MANIFEST.USES_SDK.ANDROID_MINSDKVERSION = "8";     MANIFEST.USES_SDK;}}
+    } }

@@ -1,0 +1,31 @@
+﻿    public class CxXmlConfigClass582742899 { public CxXmlConfigClass() {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+if (MANIFEST) {    MANIFEST.XMLNS_ANDROID = "http://schemas.android.com/apk/res/android";
+     MANIFEST.PACKAGE = "com.android.systemui.tests";     MANIFEST;
+
+if (USES-PERMISSION) {    MANIFEST.USES_PERMISSION.ANDROID_NAME = "android.permission.INJECT_EVENTS";     MANIFEST.USES_PERMISSION;}
+
+if (APPLICATION) {
+if (USES-LIBRARY) {    MANIFEST.APPLICATION.USES_LIBRARY.ANDROID_NAME = "android.test.runner";     MANIFEST.APPLICATION.USES_LIBRARY;}
+if (ACTIVITY) {    MANIFEST.APPLICATION.ACTIVITY.ANDROID_NAME = "com.android.systemui.screenshot.ScreenshotStubActivity";     MANIFEST.APPLICATION.ACTIVITY;}}
+
+
+if (INSTRUMENTATION) {    MANIFEST.INSTRUMENTATION.ANDROID_NAME = "android.test.InstrumentationTestRunner";
+     MANIFEST.INSTRUMENTATION.ANDROID_TARGETPACKAGE = "com.android.systemui.tests";
+     MANIFEST.INSTRUMENTATION.ANDROID_LABEL = "Tests for SystemUI";     MANIFEST.INSTRUMENTATION;}
+}
+    } }

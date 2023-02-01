@@ -1,0 +1,54 @@
+﻿    public class CxXmlConfigClass1938011958 { public CxXmlConfigClass() {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+if (MANIFEST) {
+    MANIFEST.XMLNS_ANDROID = "http://schemas.android.com/apk/res/android";
+     MANIFEST.PACKAGE = "com.android.frameworks.coretests.install_complete_package_info";     MANIFEST;
+
+
+
+
+
+
+
+if (USES-FEATURE) {
+    MANIFEST.USES_FEATURE.ANDROID_NAME = "com.android.frameworks.coretests.nonexistent";     MANIFEST.USES_FEATURE;}
+if (USES-CONFIGURATION) {
+    MANIFEST.USES_CONFIGURATION.ANDROID_REQFIVEWAYNAV = "false";     MANIFEST.USES_CONFIGURATION;}
+
+if (INSTRUMENTATION) {
+    MANIFEST.INSTRUMENTATION.ANDROID_NAME = "android.test.InstrumentationTestRunner";
+     MANIFEST.INSTRUMENTATION.ANDROID_TARGETPACKAGE = "com.android.frameworks.coretests";
+     MANIFEST.INSTRUMENTATION.ANDROID_LABEL = "Frameworks Core Tests";     MANIFEST.INSTRUMENTATION;}
+
+if (PERMISSION) {
+    MANIFEST.PERMISSION.ANDROID_LABEL = "test permission";
+     MANIFEST.PERMISSION.ANDROID_NAME = "test_permission";
+     MANIFEST.PERMISSION.ANDROID_PROTECTIONLEVEL = "normal";     MANIFEST.PERMISSION;}
+
+if (APPLICATION) {
+    MANIFEST.APPLICATION.ANDROID_HASCODE = "true";     MANIFEST.APPLICATION;
+if (ACTIVITY) {
+    MANIFEST.APPLICATION.ACTIVITY.ANDROID_NAME = "com.android.frameworks.coretests.TestActivity";     MANIFEST.APPLICATION.ACTIVITY;}
+
+if (PROVIDER) {
+    MANIFEST.APPLICATION.PROVIDER.ANDROID_NAME = "com.android.frameworks.coretests.TestProvider";
+     MANIFEST.APPLICATION.PROVIDER.ANDROID_AUTHORITIES = "com.android.frameworks.coretests.testprovider";     MANIFEST.APPLICATION.PROVIDER;}
+if (RECEIVER) {
+    MANIFEST.APPLICATION.RECEIVER.ANDROID_NAME = "com.android.frameworks.coretests.TestReceiver";     MANIFEST.APPLICATION.RECEIVER;}
+if (SERVICE) {
+    MANIFEST.APPLICATION.SERVICE.ANDROID_NAME = "com.android.frameworks.coretests.TestService";     MANIFEST.APPLICATION.SERVICE;}}
+}
+    } }

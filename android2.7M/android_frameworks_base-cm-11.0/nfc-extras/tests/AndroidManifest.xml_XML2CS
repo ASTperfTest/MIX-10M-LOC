@@ -1,0 +1,39 @@
+﻿    public class CxXmlConfigClass68770922 { public CxXmlConfigClass() {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+if (MANIFEST) {    MANIFEST.XMLNS_ANDROID = "http://schemas.android.com/apk/res/android";
+     MANIFEST.PACKAGE = "com.android.nfc_extras.tests";     MANIFEST;
+
+
+
+
+if (APPLICATION) {
+if (USES-LIBRARY) {    MANIFEST.APPLICATION.USES_LIBRARY.ANDROID_NAME = "android.test.runner";     MANIFEST.APPLICATION.USES_LIBRARY;}
+if (USES-LIBRARY) {    MANIFEST.APPLICATION.USES_LIBRARY.ANDROID_NAME = "com.android.nfc_extras";     MANIFEST.APPLICATION.USES_LIBRARY;}}
+
+
+if (USES-PERMISSION) {    MANIFEST.USES_PERMISSION.ANDROID_NAME = "android.permission.NFC";     MANIFEST.USES_PERMISSION;
+
+
+
+
+}
+if (INSTRUMENTATION) {    MANIFEST.INSTRUMENTATION.ANDROID_NAME = "android.test.InstrumentationTestRunner";
+     MANIFEST.INSTRUMENTATION.ANDROID_TARGETPACKAGE = "com.android.nfc_extras.tests";
+     MANIFEST.INSTRUMENTATION.ANDROID_LABEL = "Tests for NFC Extras library";     MANIFEST.INSTRUMENTATION;}}
+
+    } }

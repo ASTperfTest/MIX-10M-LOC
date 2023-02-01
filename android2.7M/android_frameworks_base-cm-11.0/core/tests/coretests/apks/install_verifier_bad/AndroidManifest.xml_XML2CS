@@ -1,0 +1,23 @@
+﻿    public class CxXmlConfigClass223199575 { public CxXmlConfigClass() {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+if (MANIFEST) {    MANIFEST.XMLNS_ANDROID = "http://schemas.android.com/apk/res/android";
+     MANIFEST.PACKAGE = "com.android.frameworks.coretests.install_verifier_bad";     MANIFEST;
+
+if (PACKAGE-VERIFIER) {    MANIFEST.PACKAGE_VERIFIER.ANDROID_NAME = "com.android.frameworks.coretests.nonexistent";     MANIFEST.PACKAGE_VERIFIER.ANDROID_PUBLICKEY = "Zm9vYmFy";     MANIFEST.PACKAGE_VERIFIER;}
+
+if (APPLICATION) {    MANIFEST.APPLICATION.ANDROID_HASCODE = "false";     MANIFEST.APPLICATION;}
+}
+    } }

@@ -1,0 +1,22 @@
+﻿    public class CxXmlConfigClass1651416818 { public CxXmlConfigClass() {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+if (MANIFEST) {    MANIFEST.XMLNS_ANDROID = "http://schemas.android.com/apk/res/android";
+     MANIFEST.PACKAGE = "com.android.framework.externalloctestapp";
+     MANIFEST.ANDROID_INSTALLLOCATION = "preferExternal";     MANIFEST;
+
+if (APPLICATION) {    MANIFEST.APPLICATION.ANDROID_LABEL = "ExternalLocTestApp";     MANIFEST.APPLICATION;}}
+
+    } }

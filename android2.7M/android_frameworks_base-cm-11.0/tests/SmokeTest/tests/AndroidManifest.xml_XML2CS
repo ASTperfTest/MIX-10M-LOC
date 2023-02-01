@@ -1,0 +1,47 @@
+﻿    public class CxXmlConfigClass1483664687 { public CxXmlConfigClass() {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+if (MANIFEST) {    MANIFEST.XMLNS_ANDROID = "http://schemas.android.com/apk/res/android";
+     MANIFEST.PACKAGE = "com.android.smoketest.tests";     MANIFEST;
+
+
+
+
+
+if (APPLICATION) {
+if (USES-LIBRARY) {    MANIFEST.APPLICATION.USES_LIBRARY.ANDROID_NAME = "android.test.runner";     MANIFEST.APPLICATION.USES_LIBRARY;}}
+
+
+
+
+
+
+
+if (INSTRUMENTATION) {    MANIFEST.INSTRUMENTATION.ANDROID_NAME = "android.test.InstrumentationTestRunner";
+     MANIFEST.INSTRUMENTATION.ANDROID_TARGETPACKAGE = "com.android.smoketest";
+     MANIFEST.INSTRUMENTATION.ANDROID_LABEL = "System Smoke Tests";     MANIFEST.INSTRUMENTATION;
+
+
+
+
+
+}
+if (INSTRUMENTATION) {    MANIFEST.INSTRUMENTATION.ANDROID_NAME = "com.android.smoketest.SmokeTestRunner";
+     MANIFEST.INSTRUMENTATION.ANDROID_TARGETPACKAGE = "com.android.smoketest";
+     MANIFEST.INSTRUMENTATION.ANDROID_LABEL = "System Smoke Tests";     MANIFEST.INSTRUMENTATION;}}
+
+    } }
